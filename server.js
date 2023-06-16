@@ -40,7 +40,6 @@ app.get('/', (req, res) => {
 app.get('/ghg-emissions', emission_routes.retrieveAll)
 app.post('/ghg-emissions', emission_routes.create)
 app.get('/ghg-emissions', emission_routes.retrieveBtwYears)
-app.delete('/ghg-emissions', emission_routes.deleteAll)
 const PORT = process.env.PORT || 8080
 
 app.listen(PORT, ()=> console.log("Server is running on ", PORT))

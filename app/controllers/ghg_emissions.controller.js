@@ -81,6 +81,4 @@ exports.retrieveBtwYears = (req, resp) => {
 };
 
 
-exports.deleteAll = (req, resp) => {
-    return GhgEmissions
-}
+
